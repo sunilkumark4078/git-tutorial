@@ -7,17 +7,93 @@ git config --global user.name                                                   
  git config --global user.email                                                   //to see email
 git init                                                                          //get initialize
  echo helloworld>first.txt                                                        //
- git status
- git add first.txt
+ git status                                                                                            
+ git add first.txt                                                                                                                                                                                                                    
+ git rm --cached first.txt                                                                                
+git add .               
+git status                                                                       
+ rm first.txt                                                                        
+ls                                                           
+git rm -h                                                                  
+                                                                                           
+                                              
+    
+
+
+
+echo helloworld>first.txt
  git rm --cached first.txt
-git add .
 git status
- rm first.txt
-ls
-git rm -h 
+git add first.txt
+git status
+git commit -m "initial commit"
+git log
+
+echo goodafternoon>secont.txt
+git status
+git commit -am "second.txt added"                                                             //-a means all -m message/
+git log --oneline
+git status 
+
+
+git branch
+git branch featur-a                      //switch from master to featur-a
+ git checkout featur-a
+ echo firstfeature>index.txt
+git commit -am "added feature-a "
+
+git checkout master    // to swtich back to master
 
 
 
+                                      
 
 
 lean 50 keywords linux commands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
