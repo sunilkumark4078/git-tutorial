@@ -1,0 +1,23 @@
+global and local reposateries
+
+steps
+ git config --global user.name iknowimhere                                        //set user name
+git config --global user.name                                                     //to see user name
+ git config --global user.email sunilkumarsk4078@gmail.com                        //set email
+ git config --global user.email                                                   //to see email
+git init                                                                          //get initialize
+ echo helloworld>first.txt                                                        //
+ git status
+ git add first.txt
+ git rm --cached first.txt
+git add .
+git status
+ rm first.txt
+ls
+git rm -h 
+
+
+
+
+
+lean 50 keywords linux commands
